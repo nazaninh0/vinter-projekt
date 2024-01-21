@@ -13,6 +13,8 @@ public class Main {
         scan.nextLine();
         tamagochi tam = new tamagochi(name);
         tam.feed();
+        System.out.println("skriv ett ord");
+        String teach;
         tam.teach("hej");
         tam.Hi();
     }
