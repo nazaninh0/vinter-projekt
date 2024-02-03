@@ -15,6 +15,7 @@ public class Main {
         tam.feed();
         tam.teach("hej");
         tam.sayHi();
+        tam.PrintStats();
     }
 
 }
