@@ -7,9 +7,7 @@ public class Main {
         System.out.println("vinter projekt");
         Scanner scan = new Scanner(System.in);
         System.out.println("namnge din tamagochi");
-        scan.nextLine();
-        String name;
-        name = scan.nextLine();
+        String name =scan.nextLine();
         scan.nextLine();
         tamagochi tam = new tamagochi(name);
         tam.feed();
